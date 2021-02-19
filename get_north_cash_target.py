@@ -68,6 +68,6 @@ for code in data_json:
         df = df.append([s],ignore_index=True)
     # print(code)
 # print()
-writer = pd.ExcelWriter('/Users/zhangmin/Documents/data_shares/北向资金建仓追踪.xlsx')
+writer = pd.ExcelWriter('F:/git_doc/data_shares/北向资金建仓追踪.xlsx')
 df.to_excel(writer)
 writer.save()
